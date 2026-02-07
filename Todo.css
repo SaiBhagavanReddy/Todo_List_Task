@@ -1,0 +1,79 @@
+.Main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: #f4f6f8;
+}
+
+.Todo_starting {
+  width: 300px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.todo-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  color: white;
+  border-radius: 6px;
+}
+
+.todo-header.todo {
+  background: #1ee585;
+}
+.todo-header.progress {
+  background: #1d00fb;
+}
+.todo-header.done {
+  background:#fb8c00;
+}
+
+.add-card-btn {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  border: none;
+  background: #f1f3f4;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.todo-card {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-bar {
+  width: 4px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+
+.card-content {
+  flex: 1;
+}
+
+.card-title {
+  cursor: pointer;
+}
+
+.card-content input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
